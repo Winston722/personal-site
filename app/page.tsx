@@ -92,7 +92,7 @@ export default function Page() {
                 LinkedIn
               </a>
               <a
-                href="https://github.com/winstonunderwood"
+                href="https://github.com/Winston722"
                 target="_blank"
                 rel="noopener noreferrer"
                 className="flex items-center gap-2 px-5 py-2.5 border border-slate-700 hover:border-slate-500 text-slate-300 hover:text-slate-100 rounded-lg text-sm font-medium transition-colors"
@@ -223,13 +223,13 @@ export default function Page() {
                   linkedin.com/in/winston722
                 </a>
                 <a
-                  href="https://github.com/winstonunderwood"
+                  href="https://github.com/Winston722"
                   target="_blank"
                   rel="noopener noreferrer"
                   className="flex items-center gap-3 text-slate-300 hover:text-slate-100 transition-colors"
                 >
                   <GitHubIcon />
-                  github.com/winstonunderwood
+                  github.com/Winston722
                 </a>
               </div>
             </div>
