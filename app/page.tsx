@@ -122,18 +122,18 @@ export default function Page() {
 
               <div className="space-y-5 text-slate-400 leading-relaxed">
                 <p>
-                  I&apos;m a data scientist with experience across insurance, financial services, and marketing analytics.
-                  I specialize in building end-to-end analytical systems — from data pipelines to model deployment —
-                  that drive measurable business outcomes.
+                  I&apos;m a dad, a data science leader, a marketer, and an amateur general contractor. 
                 </p>
                 <p>
-                  At Allstate, I lead a team of marketing data scientists focused on understanding how marketing
-                  spend performs across channels. Before that, I worked at Root Inc and Nationwide Insurance,
-                  building models and analytics tools across a range of domains.
+                  At Allstate, I lead a team of marketing data scientists focused on driving measurable performance
+                  improvements by optimizing our digital media programs. Before that, I worked at Root Inc and 
+                  Nationwide Insurance, doing everything from media buying to machine learning operations.
                 </p>
                 <p>
-                  Outside of work, I mentor aspiring data scientists through the Data Science for All program
-                  and build data-driven applications.
+                  Outside of work, I enjoy working with my hands on residential construction projects, particularly 
+                  electrical and drywall. When I need a reset, I like backpacking in the last remaining pockets of 
+                  the country that still don&apos;t have cell service. But above all, most of my time is spent raising
+                  two boys as best as I can. 
                 </p>
 
                 <div className="pt-2 space-y-6">
@@ -146,16 +146,16 @@ export default function Page() {
                       </li>
                       <li className="flex justify-between">
                         <span>BS, Business Administration</span>
-                        <span className="text-slate-500">Ohio State University</span>
+                        <span className="text-slate-500">The Ohio State University</span>
                       </li>
                     </ul>
                   </div>
                   <div>
-                    <h3 className="text-slate-200 font-medium mb-3">Certifications</h3>
+                    <h3 className="text-slate-200 font-medium mb-3">Certifications & Extracurriculars</h3>
                     <ul className="space-y-2 text-sm">
                       <li>AWS Cloud Practitioner</li>
                       <li>Neural Networks & Deep Learning — Coursera</li>
-                      <li>Data Science for All — Correlation One</li>
+                      <li>Data Science for All Mentor — Correlation One</li>
                     </ul>
                   </div>
                 </div>
@@ -187,7 +187,7 @@ export default function Page() {
                 </div>
                 <h3 className="text-slate-100 font-semibold mb-2">Zonk</h3>
                 <p className="text-slate-400 text-sm leading-relaxed">
-                  A fantasy sports draft tracking app for identifying and monitoring sleeper picks during draft season.
+                  An app that syncs with your fantasy draft in Sleeper to track your own custom player rankings
                 </p>
                 <div className="mt-4">
                   <span className="text-xs px-2 py-1 rounded-full bg-slate-800 text-slate-400">Web App</span>
