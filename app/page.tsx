@@ -1,3 +1,5 @@
+import Image from "next/image";
+
 function GitHubIcon() {
   return (
     <svg viewBox="0 0 24 24" fill="currentColor" className="w-5 h-5">
@@ -110,9 +112,13 @@ export default function Page() {
             <h2 className="text-sm font-medium tracking-widest uppercase text-indigo-400 mb-12">About</h2>
             <div className="grid md:grid-cols-2 gap-16 items-start">
 
-              <div className="w-full aspect-square max-w-xs bg-slate-800 rounded-2xl flex items-center justify-center text-slate-600 text-sm">
-                Photo coming soon
-              </div>
+              <Image
+                src="/self.jpg"
+                alt="Winston Underwood"
+                width={320}
+                height={320}
+                className="w-full max-w-xs rounded-2xl object-cover"
+              />
 
               <div className="space-y-5 text-slate-400 leading-relaxed">
                 <p>
