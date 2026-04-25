@@ -194,9 +194,28 @@ export default function Page() {
                 </div>
               </a>
 
-              <div className="p-6 rounded-2xl border border-dashed border-slate-800 flex items-center justify-center text-slate-600 text-sm min-h-48">
-                More coming soon
-              </div>
+              <a
+                href="https://cfb.winstonunderwood.com"
+                target="_blank"
+                rel="noopener noreferrer"
+                className="group p-6 rounded-2xl border border-slate-800 hover:border-indigo-500/50 bg-slate-900/50 hover:bg-slate-900 hover:shadow-[0_0_24px_rgba(99,102,241,0.15)] transition-all duration-300"
+              >
+                <div className="flex items-start justify-between mb-4">
+                  <div className="w-10 h-10 rounded-lg bg-sky-500/20 flex items-center justify-center text-sky-400 text-sm font-bold">
+                    WU
+                  </div>
+                  <span className="text-slate-600 group-hover:text-slate-400 transition-colors">
+                    <ExternalLinkIcon />
+                  </span>
+                </div>
+                <h3 className="text-slate-100 font-semibold mb-2">Worster-Underwood CFB</h3>
+                <p className="text-slate-400 text-sm leading-relaxed">
+                  College football rankings combining a margin-based power rating (Underwood) and a win/loss résumé ranking (Worster) into a unified ensemble
+                </p>
+                <div className="mt-4">
+                  <span className="text-xs px-2 py-1 rounded-full bg-slate-800 text-slate-400">Web App</span>
+                </div>
+              </a>
 
             </div>
           </div>
