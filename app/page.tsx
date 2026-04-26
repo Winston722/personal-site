@@ -217,6 +217,29 @@ export default function Page() {
                 </div>
               </a>
 
+              <a
+                href="https://dave.winstonunderwood.com"
+                target="_blank"
+                rel="noopener noreferrer"
+                className="group p-6 rounded-2xl border border-slate-800 hover:border-indigo-500/50 bg-slate-900/50 hover:bg-slate-900 hover:shadow-[0_0_24px_rgba(99,102,241,0.15)] transition-all duration-300"
+              >
+                <div className="flex items-start justify-between mb-4">
+                  <div className="w-10 h-10 rounded-lg bg-violet-500/20 flex items-center justify-center text-violet-400 text-xs font-bold">
+                    DAVE
+                  </div>
+                  <span className="text-slate-600 group-hover:text-slate-400 transition-colors">
+                    <ExternalLinkIcon />
+                  </span>
+                </div>
+                <h3 className="text-slate-100 font-semibold mb-2">DAVE</h3>
+                <p className="text-slate-400 text-sm leading-relaxed">
+                  Dynasty Asset Valuation Engine — a fully configurable fantasy football draft board with adjustable scoring, league structure, and aging curves
+                </p>
+                <div className="mt-4">
+                  <span className="text-xs px-2 py-1 rounded-full bg-slate-800 text-slate-400">Web App</span>
+                </div>
+              </a>
+
             </div>
           </div>
         </section>
